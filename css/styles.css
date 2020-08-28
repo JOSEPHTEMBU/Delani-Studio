@@ -11,6 +11,15 @@
 p {
 	text-align: center;
 }
+* .services{
+    background-image: url("../images/s_image.jpg");
+    background-size: cover;
+    height: 250px;
+    text-align: center;
+    color: white;
+    padding: 100px;
+} 
+
 h1 {
 	color: white;
 	text-align: center;
