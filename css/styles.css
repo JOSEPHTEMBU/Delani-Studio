@@ -11,7 +11,7 @@
 p {
 	text-align: center;
 }
-* .services{
+ .services{
     background-image: url("../images/s_image.jpg");
     background-size: cover;
     height: 250px;
@@ -23,11 +23,11 @@ p {
 h1 {
 	color: white;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 30px;
 }
 
-.logo img:last-child {
-	padding: 130px;
+  .logo img:last-child {  
+	padding: 160px;
 }
 h2 {
 	text-align: center;
