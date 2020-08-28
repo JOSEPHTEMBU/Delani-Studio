@@ -2,7 +2,7 @@
 	background-image: url("../images/h_img.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
+	width: 105%;
 	height: 700px;
 	text-align: center;
 	padding: 200px;
@@ -17,7 +17,7 @@ p {
     height: 250px;
     text-align: center;
     color: white;
-    padding: 100px;
+    padding: 105px;
 } 
 
 h1 {
@@ -37,5 +37,5 @@ h2 {
 }
 body{
     font-family: Arial, Helvetica, sans-serif; 
-    
+
  }
