@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="logo">
             <img src="./images/logo.png" alt="logo">
             <h1>WELCOME </h1>
@@ -171,57 +171,58 @@
                                 </div>
                                 <img src="./images/work8.jpg" class="img-thumbnail">
                             </div>
-                            <div id="top1">
-                                <div class="container">
-                                    <form id="form">
-                                        <h3>CONTACT US</h3>
+                        </div>
+
+                        <div class="form1">
+
+                            <h2>CONTACT US</h2>
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8">
+                                    <form id="jambo" name="form2" onsubmit="return contact()">
                                         <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" id="email1"
-                                                        placeholder="Enter email">
-                                                </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control" id="transparent"
+                                                    placeholder="Name" name="name">
                                             </div>
-
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="name"
-                                                        placeholder="Enter name">
-                                                </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control" id="transparent"
+                                                    placeholder="Email" name="email">
                                             </div>
                                         </div>
 
+                                        <div class="form-group" id="jambo"><br>
 
-                                        <div class="form-group">
-                                            <label for="message"></label>
-                                            <textarea class="form-control" id="message"
-                                                placeholder="Enter message here..." rows="8"></textarea>
+                                            <textarea id="transparent" id="message" rows="9"
+                                                placeholder="Your Message here..." name="message"></textarea>
                                         </div>
-                                        <button type="button" class="btn btn-outline-primary"
-                                            id="button">submit</button>
+                                        <button type="submit" id="transparency"
+                                            class="btn btn-outline-light btn-lg btn-block">Submit</button>
                                     </form>
                                 </div>
                             </div>
-                            <div id="icon">
-                                <img src="./images/twitter.png">
-                                <img src="./images/dribble.png">
-                                <img src="./images/facebook.png">
-                                <img src="./images/g_plus.png">
-                                <img src="./images/skype.png">
-                                <img src="./images/stumble_upon.png">
-                                <img src="./images/behance.png">
-                                <img src="./images/pinterest.png">
-                                <img src="./images/flickr.png">
-                                <div id="bott">
-                                    <p>DELANI STUDIO</p>
-                                    <P>2020</P>
-                                </div>
+                            <div class="col-md-2"></div>
+                        </div><br>
+                        <div id="icon">
+                            <img src="./images/twitter.png">
+                            <img src="./images/dribble.png">
+                            <img src="./images/facebook.png">
+                            <img src="./images/g_plus.png">
+                            <img src="./images/skype.png">
+                            <img src="./images/stumble_upon.png">
+                            <img src="./images/behance.png">
+                            <img src="./images/pinterest.png">
+                            <img src="./images/flickr.png">
+                            <div id="bott">
+                                <p>DELANI STUDIO</p>
+                                <P>2020</P>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 
