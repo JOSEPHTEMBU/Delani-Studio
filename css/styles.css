@@ -1,16 +1,27 @@
-#design-page1,#development-page2,#production-page3{
+#design-page1,
+#development-page2,
+#production-page3 {
 	display: none;
 }
-.what-we-do{
+.what-we-do {
 	text-align: center;
 }
-.what-we-do h4{
+
+#social-icon {
+	margin: 20px;
+	width: 100%;
+	justify-content: space-between;
+}
+.portfolio {
+	margin: 50px;
+}
+.what-we-do h4 {
 	margin-top: 6px;
 }
-.form1{
-	margin-top: 30px;
+.form1 {
+	margin-top: 10px;
 }
-h3{
+h3 {
 	text-align: center;
 }
 .logo {
@@ -20,7 +31,7 @@ h3{
 	width: 105%;
 	height: 700px;
 	text-align: center;
-	padding: 200px;
+	padding: 300px;
 	color: white;
 }
 p {
@@ -42,7 +53,7 @@ h1 {
 }
 
 .logo img:last-child {
-	padding: 160px;
+	padding: 50px;
 }
 h2 {
 	text-align: center;
@@ -107,6 +118,10 @@ h5 {
 	top: 50%;
 	left: 50%;
 	transform: translateY(-50%) translateX(-50%);
+}
+
+h5{
+	color: white;
 }
 
 #imgtext3 {
