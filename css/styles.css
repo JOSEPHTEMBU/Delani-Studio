@@ -1,4 +1,18 @@
-
+#design-page1,#development-page2,#production-page3{
+	display: none;
+}
+.what-we-do{
+	text-align: center;
+}
+.what-we-do h4{
+	margin-top: 6px;
+}
+.form1{
+	margin-top: 30px;
+}
+h3{
+	text-align: center;
+}
 .logo {
 	background-image: url("../images/h_img.jpg");
 	background-size: cover;
