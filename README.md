@@ -71,6 +71,9 @@ Step 3: open your terminal and navigate to Delani-Studio.
 
 Step 4: To run the website, you'll have to open the index.thml file with a browser of your choice 
 
+# Live link
+https://josephtembu.github.io/Delani-Studio/
+
 # Support and contact details
 contact me  @ josephmulama30@gmail.com
 
