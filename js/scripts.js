@@ -50,6 +50,14 @@ $(document).ready(function () {
 	$("#hover8").hover(function () {
 		$("#imgtext8").toggle();
 	});
+	for (let i = 1; i < 9; i++) {
+		$("#hover" + i).mouseover(function () {
+		  $("#imgtext" + i).show();
+		});
+		$("#hover" + i).mouseout(function () {
+		  $("#imgtext" + i).hide();
+		});
+	  }
 });
 function contact(form){
 	var name = document.forms["form2"]["name"].value;
