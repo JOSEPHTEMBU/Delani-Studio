@@ -1,13 +1,26 @@
-
-
+@media screen and (min-device-width: 732px), screen and (max-width: 1287px) {
+	h1 {
+		font-size: 13;
+		width: px;
+	}
+}
 
 #design-page1,
 #development-page2,
 #production-page3 {
 	display: none;
 }
+
+.col-md-4{
+	height: 150px;
+}
 .what-we-do {
 	text-align: center;
+}
+
+.categories {
+	height: 450px;
+	background-color: tomato;
 }
 
 #social-icon {
@@ -90,17 +103,9 @@ h5 {
 	text-align: center;
 }
 
-
-
-
-
-h5{
+h5 {
 	color: white;
 }
-
-
-
-
 
 .hover {
 	position: relative;
@@ -156,11 +161,8 @@ textarea {
 #hover6,
 #hover7,
 #hover8 {
-  position: relative;
+	position: relative;
 }
-
-
-
 
 #imgtext1,
 #imgtext2,
@@ -170,22 +172,21 @@ textarea {
 #imgtext6,
 #imgtext7,
 #imgtext8 {
-  position: absolute;
-  width: 80%;
-  height: 80%;
-  color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 3px solid white;
-  text-align: justify;
-  padding: 2px;
-
-  display: none;
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 3px solid white;
+	text-align: justify;
+	padding: 2px;
+	display: none;
 }
 
 .col-md-3 p {
-  text-align: justify;
-  text-transform: uppercase;
-  font-weight: bold;
+	text-align: justify;
+	text-transform: uppercase;
+	font-weight: bold;
 }
